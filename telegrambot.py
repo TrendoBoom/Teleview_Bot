@@ -2,8 +2,8 @@ import os
 from telegram import Bot
 
 def sendMessage(data):
-    tg_bot = Bot(token=os.environ['TOKEN'])
-    channel = os.environ['CHANNEL']
+    tg_bot = Bot(token=os.environ['5101431961:AAG2JeVnA0R4BKpTbbc3WgpN-violnjgBOU'])
+    channel = os.environ['-1001786420647']
 
     try:
         print('--->Sending message to telegram')
